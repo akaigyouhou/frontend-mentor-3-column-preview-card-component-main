@@ -1,0 +1,17 @@
+button {
+    border: none;
+    padding: 15px 30px;
+    color: #000;
+    mix-blend-mode: screen;
+    background-color: var(--very-light-gray);
+    font-family: "LexendDeca";
+    font-size: 15.5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000;
+    border: 2.5px solid var(--very-light-gray);
+    color: var(--very-light-gray);
+}

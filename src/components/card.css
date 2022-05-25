@@ -1,0 +1,21 @@
+.card {
+    margin-top: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 100px;
+}
+
+@media (min-width: 900px) {
+    .card {
+      display: flex;
+      /* justify-content: center; */
+      margin: auto;
+      /* width: 920px; */
+      margin-top: 170px;
+      width: 920px;
+      /* margin-left: 260px;
+      margin-right: 260px; */
+      /* margin-bottom: 130px; */
+      height: 500px;
+    }
+}

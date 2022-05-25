@@ -1,0 +1,54 @@
+.sedan {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: var(--bright-orange);
+}
+
+.suv {
+    background-color: var(--dark-cyan);
+}
+
+.luxury {
+    background-color: var(--very-dark-cyan);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.section {
+    /* opacity: 0.5; */
+    padding: 48px 49px 48px 49px;
+}
+
+.section h1 {
+    color: var(--very-light-gray);
+    font-family: "BigShouldersDisplay";
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.section p {
+    color: var(--transparent-white);
+    font-family: "LexendDeca";
+    line-height: 1.65;
+    margin-bottom: 24px;
+}
+
+
+@media (min-width: 900px) {
+    .section {
+        flex: 1;
+        padding-bottom: 20px;
+    }
+    .section p {
+        margin-bottom: 83px;
+    }
+    .sedan {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+    .luxury {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+}
